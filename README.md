@@ -1,41 +1,26 @@
-# 🇪🇸 Quiz de Espanhol
+# Quiz de Espanhol
 
-Quiz interativo para praticar espanhol do zero, com categorias temáticas, sistema de progresso, flashcards de estudo e conquistas — construído com HTML, CSS e JavaScript puro (sem frameworks).
+Projeto que fiz pra praticar espanhol e, ao mesmo tempo, praticar desenvolvimento front-end. É um quiz com perguntas de vocabulário, verbos e gramática básica, separado por categorias.
 
-🔗 **[Testar o quiz ao vivo](https://poul1202.github.io/Quiz-Espanhol/)**
+Testa aqui: https://poul1202.github.io/Quiz-Espanhol/
 
-## ✨ Funcionalidades
+## O que tem
 
-- **5 categorias temáticas**: saudações, números e cores, verbos ser/estar/tener, família e casa, gramática básica
-- **Modo de estudo**: flashcards viráveis antes de cada quiz, com pronúncia em áudio
-- **Sistema de progresso**: categorias desbloqueiam conforme você avança, com desempenho salvo entre sessões
-- **Revisão espaçada**: perguntas erradas voltam automaticamente numa categoria de revisão, até você acertá-las
-- **Sistema de vidas**: 3 corações por tentativa, adicionando um elemento de desafio
-- **Conquistas**: medalhas desbloqueáveis por marcos de progresso
-- **Sequência de dias (streak)**: acompanha quantos dias seguidos você praticou
-- **Modo claro/escuro**: com detecção automática da preferência do sistema
-- **Compartilhamento de resultado**: compartilhe sua pontuação direto do app
-- **Feedback com áudio**: pronúncia das palavras via Web Speech API, e efeitos sonoros de acerto/erro
+Cada categoria tem um modo de estudo com flashcards antes do quiz começar, e as perguntas que você erra voltam depois numa categoria de revisão, pra reforçar o que ainda não ficou. O progresso fica salvo no navegador, então dá pra fechar e continuar depois de onde parou.
 
-## 🛠️ Tecnologias
+Também tem pronúncia das palavras em espanhol, efeitos sonoros simples, modo claro e escuro, e algumas coisas de gamificação (vidas, sequência de dias praticando, conquistas) só pra deixar mais interessante de usar.
 
-- HTML5
-- CSS3 (variáveis customizadas, animações, layout responsivo)
-- JavaScript puro (sem bibliotecas ou frameworks)
-- Web Speech API (pronúncia em espanhol)
-- LocalStorage (progresso salvo no navegador)
+## Tecnologias
 
-## 🚀 Como rodar localmente
+HTML, CSS e JavaScript puro, sem framework nenhum. Uso a Web Speech API do navegador pra pronúncia e localStorage pra salvar o progresso.
 
-1. Clone o repositório:
+## Rodando localmente
+
+Clone o repositório e abre o `index.html` no navegador, ou usa o Live Server do VS Code se quiser ver as mudanças em tempo real enquanto edita.
+
 ```bash
-   git clone https://github.com/Poul1202/Quiz-Espanhol.git
+git clone https://github.com/Poul1202/Quiz-Espanhol.git
 ```
-2. Abra o arquivo `index.html` diretamente no navegador, ou use a extensão **Live Server** no VS Code para melhor experiência de desenvolvimento.
-
-## 📌 Sobre este projeto
-
-Este é um projeto de portfólio pessoal, desenvolvido para praticar desenvolvimento front-end e como material de demonstração para trabalhos freelancer.
 
 ---
 
